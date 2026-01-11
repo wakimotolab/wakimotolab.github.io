@@ -1,0 +1,44 @@
+---
+title: "Wakimoto Laboratory"
+---
+# Navigation
+[CV](#cv) | [Publications](#publications) | [Research](#research) | [Contact](#contact)
+
+## CV {#cv}
+脇本 竜太郎
+明治大学情報コミュニケーション学部准教授
+
+### 職歴/Professonal Employment
+
+-2021/04～	明治大学 情報コミュニケーション学部 専任准教授
+-2012/04～2021/03	明治大学 情報コミュニケーション学部 専任講師
+-2008/04～2012/03	安田女子大学 文学部心理学科 講師
+-2007/04～2008/03	日本学術振興会 特別研究員PD
+-2006/04～2007/03	日本学術振興会 特別研究員（DC2）
+
+### 学歴/Education
+-2010/04 東京大学 博士(教育学)
+-2007/03	東京大学 教育学研究科 博士課程単位取得満期退学
+ -Ph.D. in Pedagogy, The University of Tokyo, April 2010
+ -Completed doctoral coursework (Ph.D. program),The University of Tokyo, March 2007
+-2004/03	東京大学 教育学研究科 教育心理学専攻 修士課程修了 修士(教育学)
+ -March 2004.  M.A. in Education, The University of Tokyo
+-2002/03	東京大学 教育学部 総合教育科学科教育心理学コース 卒業
+ -March 2002.  B.A. in Education, The University of Tokyo
+
+
+
+
+## Publications {#publications}
+
+- Wakimoto, R. (2024). *Title of the article*. Journal Name. [DOI](https://doi.org/xxxxx)
+
+## Research {#research}
+
+- Social psychology of fandom  
+- Identity and group processes  
+- Quantitative methods
+
+## Contact {#contact}
+
+Email: xxx@xxx.ac.jp
