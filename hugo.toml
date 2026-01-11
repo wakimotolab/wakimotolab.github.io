@@ -1,0 +1,8 @@
+baseURL = "https://wakimotolab.github.io/"
+languageCode = "ja"
+title = "Wakimoto Laboratory"
+theme = "paper"
+publishDir = "docs"
+
+[params]
+  description = "Wakimoto Laboratory"
