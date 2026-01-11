@@ -2,7 +2,7 @@ baseURL = "https://wakimotolab.github.io/"
 languageCode = "ja"
 title = "Wakimoto Laboratory"
 theme = "paper"
-publishDir = "docs"
+publishDir = "."
 
 [params]
   description = "Wakimoto Laboratory"
