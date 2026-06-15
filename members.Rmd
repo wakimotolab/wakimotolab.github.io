@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Members"
 class: members
 ---
 <div class="navbar">

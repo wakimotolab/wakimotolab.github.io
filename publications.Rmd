@@ -1,5 +1,5 @@
 ---
-title: ""
+title: "Publications"
 class: publications
 ---
 <div class="navbar">
