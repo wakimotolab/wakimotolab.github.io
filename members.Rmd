@@ -59,10 +59,10 @@ Associate Professor, School of Information and Communication, Meiji University
 <h3>Members</h3>
 
 <strong>修士課程</strong>
-- M1 2名
+- M2 2名, M1 1名
 
 <strong>学士課程</strong>
-- B4 1名, B3 2名
+- B4 2名, B3 4名
 </div>
 
 <footer style="text-align:center; margin-top:3em; padding:1em 0; background-color:#f2f2f2; color:#333;">
