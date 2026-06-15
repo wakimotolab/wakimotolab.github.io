@@ -1,0 +1,33 @@
+---
+title: "Untitled"
+class: research
+---
+<div class="navbar">
+  <a href="index.html" class="logo">Wakimoto Laboratory</a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="members.html">Members</a></li>
+    <li><a href="publications.html">Publications</a></li>
+    <li><a href="research.html">Research</a></li>
+    <li><a href="recruit.html">Recruit</a></li>
+  </ul>
+</div><br>
+
+## Research {#Research}
+
+<div class="pub-panel">
+### 研究室で進めているプロジェクト
+</div>
+
+<div class="pub-panel">
+### これまでの修士論文のテーマ
+</div>
+
+
+<div class="pub-panel">
+### これまでの卒業論文のテーマ
+</div>
+
+<footer style="text-align:center; margin-top:3em; padding:1em 0; background-color:#f2f2f2; color:#333;">
+  &copy; 2026 Wakimoto Laboratory 
+</footer>

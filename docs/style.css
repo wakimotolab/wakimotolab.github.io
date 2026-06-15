@@ -1,0 +1,308 @@
+body {
+  margin-top: 90px;
+  font-family:
+    -apple-system,           /* macOS / iOS */
+    BlinkMacSystemFont,
+    "Hiragino Sans",         /* macOS 日本語の最優 */
+    "Hiragino Kaku Gothic ProN",
+    "Yu Gothic Medium",      /* Windows */
+    "Yu Gothic",
+    "Meiryo",
+    system-ui,
+    sans-serif;
+
+  line-height: 1.7;
+}
+h1, h2, h3 {
+  font-weight: 500;     /* bold感を抑える */
+  letter-spacing: 0.02em;
+}
+
+h1.title {
+  display: none;
+}
+
+h2 {
+  font-size: 1.2em !important;  /* サイズはそのまま */
+  font-weight: normal !important; /* ← 太字ではなく普通にする */
+  margin-top: 1em !important;
+  margin-bottom: 0.5em !important;
+  border-bottom: 2px solid #dcd6ff;  /* 色はパネルと統一 */
+  padding-bottom: 0.3em;
+  margin-bottom: 0.8em;
+}
+
+h3 {
+  font-size: 1.0em !important;
+  font-weight: normal !important; /* ← 太字ではなく普通にする */
+  margin-top: 1em !important;
+  margin-bottom: 0.5em !important;
+  border-bottom: 1px solid #e5e0ff;
+  padding-bottom: 0.2em;
+  margin-bottom: 0.6em;
+}
+
+.nav-links a[href$="index.html"]:is(:link, :visited):has(body.index),
+.nav-links a[href$="members.html"]:has(body.members),
+.nav-links a[href$="publications.html"]:has(body.publications),
+.nav-links a[href$="research.html"]:has(body.research),
+.nav-links a[href$="recruit.html"]:has(body.recruit) {
+  background-color: #dcd6ff;
+  color: #512DA8;
+}
+
+
+
+
+/* ===============================
+   ナビバー全体
+=============================== */
+body > .navbar {
+  background: linear-gradient(to right, #3F1A8C, #512DA8, #5E35B1, #6A4BC0) !important;
+  position: fixed !important;
+  top: 0 !important;
+  width: 100% !important;
+  z-index: 1000 !important;
+  padding: 1em 2em !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  align-items: center !important;
+  box-sizing: border-box !important;
+  color: white !important;
+  font-family: sans-serif !important;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2) !important;
+  font-family:
+    -apple-system,
+    BlinkMacSystemFont,
+    "Hiragino Sans",
+    "Yu Gothic Medium",
+    system-ui,
+    sans-serif;
+  
+}
+
+/* ロゴ */
+.navbar .logo {
+  font-weight: normal !important;  /* boldを外す */
+  font-size: 1.2em !important;
+  color: white !important;
+  text-decoration: none !important;
+  flex-shrink: 0 !important;
+}
+
+/* ナビリンク */
+.navbar .nav-links {
+  list-style: none !important;
+  display: flex !important;
+  gap: 1.5em !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  flex-wrap: wrap !important;
+  max-width: 100% !important;
+  justify-content: flex-start !important;
+}
+
+/* リンク個別 */
+.navbar .nav-links li {
+  position: relative;
+}
+
+.navbar .nav-links a {
+  color: white !important;
+  text-decoration: none !important;
+  font-weight: 500 !important;
+  padding: 0.3em 0.6em !important;
+  border-radius: 4px !important;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* ホバー */
+.navbar .nav-links a:hover {
+  color: #dcd6ff !important;
+  background-color: rgba(255,255,255,0.1) !important;
+}
+
+/* 現在ページリンク */
+.navbar .nav-links a.current {
+  background-color: #dcd6ff !important;
+  color: #512DA8 !important;
+}
+
+/* 現在ページリンクのホバー */
+.navbar .nav-links a.current:hover {
+  background-color: #c2b3ff !important;
+  color: #512DA8 !important;
+}
+
+/* ===============================
+   見出しサイズ調整
+=============================== */
+h2 {
+  font-size: 1.4em !important;
+  font-weight: normal !important;
+  margin-top: 1em !important;
+  margin-bottom: 0.5em !important;
+}
+
+h3 {
+  font-size: 1.2em !important;
+  font-weight: normal !important;
+  margin-top: 1em !important;
+  margin-bottom: 0.5em !important;
+}
+
+/* ===============================
+   レスポンシブ対応
+=============================== */
+@media (max-width: 768px) {
+  body > .navbar {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+  .navbar .nav-links {
+    flex-direction: column !important;
+    gap: 0.8em !important;
+    margin-top: 0.5em !important;
+  }
+}
+
+/* ===============================
+   フッター
+=============================== */
+footer {
+  text-align: center;
+  margin-top: 3em;
+  padding: 1em 0;
+  background-color: #f2f2f2;
+  color: #333;
+  font-size: 0.9em;
+}
+
+footer a {
+  color: #512DA8;
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+
+.pi-panel {
+  max-width: 900px;
+  margin: 2em auto;
+  padding: 1.5em 2em;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.pi-panel h2 {
+  margin-top: 0;
+}
+
+.pi-panel h3 {
+  margin-top: 1.2em;
+  font-size: 1.1em;
+  color: #444;
+}
+
+.pi-panel {
+  border-left: 5px solid #555;
+  background-color: #fafafa;
+}
+
+.pi-panel h2 {
+  font-size: 1.4em;
+  letter-spacing: 0.02em;
+}
+
+
+.member-group {
+  max-width: 900px;
+  margin: 1.5em auto;
+  padding: 1.2em 1.8em;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+.member-group h3 {
+  margin-top: 0;
+  margin-bottom: 0.6em;
+  font-size: 1.2em;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 0.3em;
+}
+
+/* ===============================
+   Publications panels
+=============================== */
+.pub-panel {
+  background: #f6f3ff;
+  border-left: 6px solid #512DA8;
+  padding: 1.2em 1.5em;
+  margin: 2em 0;
+  border-radius: 6px;
+}
+
+.pub-panel h3 {
+  margin-top: 0;
+  margin-bottom: 0.8em;
+  font-size: 1.2em;
+  color: #512DA8;
+}
+
+.pub-panel ul {
+  margin: 0;
+  padding-left: 1.2em;
+}
+
+.pub-panel li {
+  margin-bottom: 0.6em;
+  line-height: 1.5;
+}
+
+.pub-panel h4 {
+  margin-top: 1em;
+  margin-bottom: 0.4em;
+  font-size: 1.05em;
+  color: #444;
+}
+
+/* Publications：年代順（新しいものを上） */
+.publications .pub-panel ul {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.profile-links {
+  margin-top: 1.2em;
+  font-size: 0.9em;
+  color: #555;
+}
+
+.profile-links span {
+  margin-right: 0.5em;
+  font-weight: 500;
+}
+
+.profile-links a {
+  color: #0066cc;
+  text-decoration: none;
+}
+
+.profile-links a:hover {
+  text-decoration: underline;
+}
+
+.recruit-panel {
+  background: #f7f9fb;
+  border-left: 4px solid #4a6fa5;
+  padding: 1.2em 1.5em;
+  margin: 1.5em 0;
+  border-radius: 6px;
+}
+
+.recruit-panel h3 {
+  margin-top: 0;
+}

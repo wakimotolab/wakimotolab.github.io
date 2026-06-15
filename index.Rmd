@@ -1,0 +1,39 @@
+---
+title: "明治大学 脇本研究室"
+output:
+  html_document:
+    theme: null
+    toc: false
+    css: style.css
+---
+<div class="navbar">
+  <a href="index.html" class="logo">Wakimoto Laboratory</a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="members.html">Members</a></li>
+    <li><a href="publications.html">Publications</a></li>
+    <li><a href="research.html">Research</a></li>
+    <li><a href="recruit.html">Recruit</a></li>
+  </ul>
+</div><br>
+<center><h1 style="font-size: 2.2rem;">
+明治大学情報コミュニケーション学部<br>
+脇本研究室
+</h1></center>
+## 研究室について
+
+本研究室では、社会心理学の視点から、人が社会的対象や他者とのかかわりの中で、どのように自己を理解し、維持し、意味づけるのかを明らかにすることを目指しています。
+
+とりわけ、アイデンティティ、自尊感情、自己防衛といった心理過程に注目し、それらが具体的な社会的行動としてどのように表出するのかを検討しています。その一例として、現代社会におけるファン心理やファン行動に焦点を当て、「推す」という行為が自己認識や他者との関係形成において果たす役割を、理論的・実証的に明らかにすることを目指しています。
+
+## About the Laboratory
+Our laboratory aims to clarify how people understand, maintain, and make sense of the self in relation to social objects and other people, from the perspective of social psychology.
+
+In particular, we focus on psychological processes such as identity, self-esteem, and self-defense, and examine how these processes are manifested in concrete social behaviors. As one example, we investigate fan psychology and fan behavior in contemporary society, and seek to elucidate, both theoretically and empirically, the role that “oshi” practices (supporting a favorite person or character) play in self-understanding and in the formation of relationships with others.
+
+<br>
+<br>
+<br>
+<footer style="text-align:center; margin-top:3em; padding:1em 0; background-color:#f2f2f2; color:#333;">
+  &copy; 2026 Wakimoto Laboratory 
+</footer>

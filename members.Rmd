@@ -1,0 +1,70 @@
+---
+title: ""
+class: members
+---
+<div class="navbar">
+  <a href="index.html" class="logo">Wakimoto Laboratory</a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="members.html">Members</a></li>
+    <li><a href="publications.html">Publications</a></li>
+    <li><a href="research.html">Research</a></li>
+    <li><a href="recruit.html">Recruit</a></li>
+  </ul>
+</div>
+
+<!-- PI パネル -->
+<div class="pub-panel">
+<h3>PI</h3>
+
+<strong>脇本 竜太郎 (Ryutaro Wakimoto)</strong><br>
+明治大学 情報コミュニケーション学部 准教授 <br>
+Associate Professor, School of Information and Communication, Meiji University
+
+<h4>職歴 / Professional Employment</h4>
+
+- 2021/04–　明治大学 情報コミュニケーション学部 専任准教授  
+  *Associate Professor, School of Information and Communication, Meiji University*
+- 2012/04–2021/03　明治大学 情報コミュニケーション学部 専任講師  
+  *Senior Assistant Professor, School of Information and Communication, Meiji University*
+- 2008/04–2012/03　安田女子大学 文学部心理学科 講師  
+  *Assistant Professor, Faculty of Letters, Yasuda Women's University*
+- 2007/04–2008/03　日本学術振興会 特別研究員 PD <br>
+  *JSPS research fellow(PD)*
+- 2006/04–2007/03　日本学術振興会 特別研究員（DC2）<br>
+  *JSPS research fellow(DC2)*
+<h4>学歴 / Education</h4>
+
+- 2010/04 東京大学 博士(教育学)<br>
+  2007/03	東京大学 教育学研究科 博士課程単位取得満期退学 <br>
+  *Ph.D. in Pedagogy, The University of Tokyo, April 2010*<br>
+  *Completed doctoral coursework (Ph.D. program),The University of Tokyo, March 2007*
+- 2004/03	東京大学 教育学研究科 教育心理学専攻 修士課程修了 修士(教育学)<br>
+  *March 2004.  M.A. in Education, The University of Tokyo*
+- 2002/03	東京大学 教育学部 総合教育科学科教育心理学コース 卒業<br>
+  *March 2002.  B.A. in Education, The University of Tokyo*
+<div class="profile-links">
+  <span>Research profiles:</span>
+  <a href="https://researchmap.jp/rwakimoto/" target="_blank" rel="noopener">researchmap</a>
+  |
+  <a href="https://scholar.google.co.jp/citations?user=pjapqK4AAAAJ&hl=ja" target="_blank" rel="noopener">Google Scholar</a>
+  |
+  <a href="https://gyoseki1.mind.meiji.ac.jp/mjuhp/KgApp?resId=S001343">University profile</a>
+</div>
+</div>
+
+
+<!-- 学生メンバー -->
+<div class="pub-panel">
+<h3>Members</h3>
+
+<strong>修士課程</strong>
+- M1 2名
+
+<strong>学士課程</strong>
+- B4 1名, B3 2名
+</div>
+
+<footer style="text-align:center; margin-top:3em; padding:1em 0; background-color:#f2f2f2; color:#333;">
+  &copy; 2026 Wakimoto Laboratory
+</footer>

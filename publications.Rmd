@@ -1,0 +1,49 @@
+---
+title: ""
+class: publications
+---
+<div class="navbar">
+  <a href="index.html" class="logo">Wakimoto Laboratory</a>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="members.html">Members</a></li>
+    <li><a href="publications.html">Publications</a></li>
+    <li><a href="research.html">Research</a></li>
+    <li><a href="recruit.html">Recruit</a></li>
+  </ul>
+</div>
+
+## Publications {#publications}
+
+<div class="pub-panel">
+
+### 学術論文 / Papers 
+- 脇本竜太郎 (2023). 両面価値的性差別と通勤電車内のベビーカー利用者に対する態度との関連-人間的感情の割引による媒介効果を含めた検討-. 情報コミュニケーション学研究, 22, 29–38.
+- Suzuki, T., Kobayashi, T., Boase, J., Tanaka, Y., Wakimoto, R., & Suzuki, T. (2022). Mortality Salience and Mobile Voice Calling: A Case of a Massive Natural Disaster. Communication Research, 49(4), 479–499. https://doi.org/10.1177/0093650220911809
+- 脇本竜太郎 (2018). 存在論的恐怖が達成事象の主観的時間的距離に及ぼす影響 -自己高揚と一貫性希求の比較検討-. 情報コミュニケーション学研究, 18, 131–144.
+- 脇本竜太郎 (2013). 大学適応感を予測する新入生研修の継時的評価. 心理学研究, 84(4), 429–435. https://doi.org/10.4992/jjpsy.84.429
+- Wakimoto, R. (2011). Reconstruction of the Subjective Temporal Distance of Past Interpersonal Experiences After Mortality Salience. Personality and Social Psychology Bulletin, 37(5), 687–700. https://doi.org/10.1177/0146167211400422
+- Kashima, E. S., Hardie, E. A., Wakimoto, R., & Kashima, Y. (2011). Culture- and Gender-Specific Implications of Relational and Collective Contexts on Spontaneous Self-Descriptions. Journal of Cross-Cultural Psychology, 42(5), 740–758. https://doi.org/10.1177/0022022110362754
+- 脇本竜太郎 (2009). 存在論的恐怖が自己卑下的帰属および他者からの支援的帰属の期待に及ぼす影響の検討. 実験社会心理学研究, 49(1), 58–71. https://doi.org/10.2130/jjesp.49.58
+- 脇本竜太郎 (2008). 自尊心の高低と不安定性が被援助志向性・援助要請に及ぼす影響. 実験社会心理学研究, 47(2), 160–168. https://doi.org/10.2130/jjesp.47.160
+- Ouschan, L., Boldero, J. M., Kashima, Y., Wakimoto, R., & Kashima, E. S. (2007). Regulatory Focus Strategies Scale: A measure of individual differences in the endorsement of regulatory strategies. Asian Journal of Social Psychology, 10(4), 243–257. https://doi.org/10.1111/j.1467-839X.2007.00233.x
+- Wakimoto, R. (2006). Mortality salience effects on modesty and relative self-effacement. Asian Journal of Social Psychology, 9(3), 176–183.
+- 脇本竜太郎 (2005). 存在脅威管理理論の足跡と展望―文化内差・文化間差を組み込んだ包括的な理論化に向けて―. 実験社会心理学研究, 44(2), 165–179. https://doi.org/10.2130/jjesp.44.165
+
+</div>
+
+<div class="pub-panel">
+
+### 書籍 / Books 
+- 脇本竜太郎 (2019). なぜ人は困った考えや行動にとらわれるのか? : 存在脅威管理理論から読み解く人間と社会 ちとせプレス
+- 脇本竜太郎 (2016). 存在脅威管理理論（terror management theory）から見たPTG（宅 香菜子（編） 「PTGの可能性と課題」pp. 135-149.） 金子書房
+- 脇本竜太郎 (2012). テロリストの心理—個人、集団、組織レベルの分析 (バル・タル, D.（編著）熊谷智博・大渕憲一（監訳） 「紛争と平和構築の社会心理学：集団間葛藤とその解決」pp.206-229）北大路書房
+- 脇本竜太郎 (2012). 存在脅威管理理論への誘い：人は死の運命にいかに立ち向かうのか（セレクション社会心理学27）　サイエンス社
+- 脇本竜太郎 (2009). 人を傷つける心，人を助ける心 (遠藤由美（編著）『社会心理学　社会で生きる人のいとなみを探る』（いちばんはじめに読む心理学の本2)　 )　ミネルヴァ書房
+
+
+</div>
+
+<footer style="text-align:center; margin-top:3em; padding:1em 0; background-color:#f2f2f2; color:#333;">
+  &copy; 2026 Wakimoto Laboratory 
+</footer>
