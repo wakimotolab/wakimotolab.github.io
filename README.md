@@ -1,1 +1,0 @@
-# wakimotolab.github.io

@@ -7,6 +7,9 @@ output:
     theme: null
     css: "style.css"
 
+include:
+  - files
+
 exclude:
   - themes
   - public
