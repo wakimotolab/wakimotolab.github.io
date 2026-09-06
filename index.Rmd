@@ -7,32 +7,232 @@ output:
     css: style.css
 ---
 <div class="navbar">
-  <a href="index.html" class="logo">Wakimoto Laboratory</a>
+  <a href="#top" class="logo">Wakimoto Laboratory</a>
   <ul class="nav-links">
-    <li><a href="index.html">Home</a></li>
-    <li><a href="members.html">Members</a></li>
-    <li><a href="publications.html">Publications</a></li>
-    <li><a href="research.html">Research</a></li>
-    <li><a href="recruit.html">Recruit</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#research">Research</a></li>
+    <li><a href="#members">Members</a></li>
+    <li><a href="#publications">Publications</a></li>
+    <li><a href="#join">Join Us</a></li>
   </ul>
 </div><br>
 <center><h1 style="font-size: 2.2rem;">
 明治大学情報コミュニケーション学部<br>
 脇本研究室
 </h1></center>
-## 研究室について
+<section id="about">
+
+## About
+
+<div class="pub-panel">
+
+### 研究室について
 
 本研究室では、社会心理学の視点から、人が社会的対象や他者とのかかわりの中で、どのように自己を理解し、維持し、意味づけるのかを明らかにすることを目指しています。
 
 とりわけ、アイデンティティ、自尊感情、自己防衛といった心理過程に注目し、それらが具体的な社会的行動としてどのように表出するのかを検討しています。その一例として、現代社会におけるファン心理やファン行動に焦点を当て、「推す」という行為が自己認識や他者との関係形成において果たす役割を、理論的・実証的に明らかにすることを目指しています。
 
-## About the Laboratory
+### About the Laboratory
+
 Our laboratory aims to clarify how people understand, maintain, and make sense of the self in relation to social objects and other people, from the perspective of social psychology.
 
 In particular, we focus on psychological processes such as identity, self-esteem, and self-defense, and examine how these processes are manifested in concrete social behaviors. As one example, we investigate fan psychology and fan behavior in contemporary society, and seek to elucidate, both theoretically and empirically, the role that “oshi” practices (supporting a favorite person or character) play in self-understanding and in the formation of relationships with others.
 
+</div>
+
+</section>
 <br>
 <br>
+<section id="research">
+
+## Research
+
+<div class="pub-panel">
+
+### 研究室で進めているプロジェクト
+
+ファン心理や「推す」という行動を題材として、自己と社会との関係を理解する研究に取り組んでいます。近年はゼミのプロジェクトとして推し変に対する態度の尺度（推し変態度尺度）を作成したり、ファンとアイドルの相互性、アイドルに対するダメ出し行動、ママファンの心理について研究を行っています。
+
+</div>
+
+<div class="pub-panel">
+
+### これまでの修士論文のテーマ
+
+</div>
+
+<div class="pub-panel">
+
+### これまでの卒業論文のテーマ
+
+- SNSにおける良性妬みと悪性妬み
+- 創作活動への参加を規定する要因
+- 製品の擬人化が愛着に及ぼす影響
+- ファンアイデンティティとファン行動の関連
+- 先延ばし行動の認知プロセス
+
+</div>
+
+</section>
+
+<section id="members">
+
+## Members
+
+<div class="pub-panel">
+
+### PI
+
+<strong>脇本 竜太郎 (Ryutaro Wakimoto)</strong><br>
+明治大学 情報コミュニケーション学部 准教授<br>
+Associate Professor, School of Information and Communication, Meiji University
+
+社会心理学を専門とし、自己・アイデンティティ、ファン心理・ファン行動などについて研究しています。
+
+*Research interests: Social psychology, self and identity, fan psychology and fan behavior.*
+
+<div class="profile-links">
+  <span>Research profiles:</span>
+  <a href="https://researchmap.jp/rwakimoto/" target="_blank" rel="noopener">researchmap</a>
+  |
+  <a href="https://scholar.google.co.jp/citations?user=pjapqK4AAAAJ&hl=ja" target="_blank" rel="noopener">Google Scholar</a>
+  |
+  <a href="https://gyoseki1.meiji.jp/html/100000805_ja.html" target="_blank" rel="noopener">University profile</a>
+</div>
+
+</div>
+
+<div class="pub-panel">
+
+### Students
+
+<strong>修士課程</strong>
+
+- M2 2名
+- M1 1名
+
+<strong>学士課程</strong>
+
+- B4 2名
+- B3 4名
+
+</div>
+
+</section>
+
+<section id="publications">
+
+## Publications
+
+<div class="pub-panel">
+
+### 学術論文 / Papers 
+
+- 脇本 竜太郎 (2023). 両面価値的性差別と通勤電車内のベビーカー利用者に対する態度との関連-人間的感情の割引による媒介効果を含めた検討-. 情報コミュニケーション学研究, 22, 29–38.
+- Suzuki, T., Kobayashi, T., Boase, J., Tanaka, Y., Wakimoto, R., & Suzuki, T. (2022). Mortality Salience and Mobile Voice Calling: A Case of a Massive Natural Disaster. Communication Research, 49(4), 479–499. https://doi.org/10.1177/0093650220911809
+- 脇本 竜太郎 (2018). 存在論的恐怖が達成事象の主観的時間的距離に及ぼす影響 -自己高揚と一貫性希求の比較検討-. 情報コミュニケーション学研究, 18, 131–144.
+- 脇本 竜太郎 (2013). 大学適応感を予測する新入生研修の継時的評価. 心理学研究, 84(4), 429–435. https://doi.org/10.4992/jjpsy.84.429
+- Wakimoto, R. (2011). Reconstruction of the Subjective Temporal Distance of Past Interpersonal Experiences After Mortality Salience. Personality and Social Psychology Bulletin, 37(5), 687–700. https://doi.org/10.1177/0146167211400422
+- Kashima, E. S., Hardie, E. A., Wakimoto, R., & Kashima, Y. (2011). Culture- and Gender-Specific Implications of Relational and Collective Contexts on Spontaneous Self-Descriptions. Journal of Cross-Cultural Psychology, 42(5), 740–758. https://doi.org/10.1177/0022022110362754
+- 脇本 竜太郎 (2009). 存在論的恐怖が自己卑下的帰属および他者からの支援的帰属の期待に及ぼす影響の検討. 実験社会心理学研究, 49(1), 58–71. https://doi.org/10.2130/jjesp.49.58
+- 脇本 竜太郎 (2008). 自尊心の高低と不安定性が被援助志向性・援助要請に及ぼす影響. 実験社会心理学研究, 47(2), 160–168. https://doi.org/10.2130/jjesp.47.160
+- Ouschan, L., Boldero, J. M., Kashima, Y., Wakimoto, R., & Kashima, E. S. (2007). Regulatory Focus Strategies Scale: A measure of individual differences in the endorsement of regulatory strategies. Asian Journal of Social Psychology, 10(4), 243–257. https://doi.org/10.1111/j.1467-839X.2007.00233.x
+- Wakimoto, R. (2006). Mortality salience effects on modesty and relative self-effacement. Asian Journal of Social Psychology, 9(3), 176–183.
+- 脇本 竜太郎 (2005). 存在脅威管理理論の足跡と展望―文化内差・文化間差を組み込んだ包括的な理論化に向けて―. 実験社会心理学研究, 44(2), 165–179. https://doi.org/10.2130/jjesp.44.165
+
+</div>
+
+<div class="pub-panel">
+
+### 書籍 / Books and Book Chapters 
+
+- 脇本 竜太郎 (2019). なぜ人は困った考えや行動にとらわれるのか? : 存在脅威管理理論から読み解く人間と社会 ちとせプレス
+- 脇本 竜太郎 (2016). 存在脅威管理理論(terror management theory)から見たPTG(宅 香菜子(編) 「PTGの可能性と課題」pp. 135-149.) 金子書房
+- 脇本 竜太郎 (2012). テロリストの心理—個人、集団、組織レベルの分析 (バル・タル, D.(編著)熊谷 智博・大渕 憲一(監訳)「紛争と平和構築の社会心理学：集団間葛藤とその解決」pp.206-229) 北大路書房
+- 脇本 竜太郎 (2012). 存在脅威管理理論への誘い：人は死の運命にいかに立ち向かうのか(セレクション社会心理学27) サイエンス社
+- 脇本 竜太郎 (2009). 人を傷つける心，人を助ける心 (遠藤 由美(編著)『社会心理学 社会で生きる人のいとなみを探る』(いちばんはじめに読む心理学の本2)) ミネルヴァ書房
+
+</div>
+
+<div class="pub-panel">
+
+### 学会発表 / Conference Presentations 
+
+- 脇本 竜太郎・吉村 萌南・馮 暁璐 (2026). アイドルファンを対象とした推し変態度尺度の作成 日本心理学会大会発表論文集, 90, 2C-027-PC [[Poster PDF]](files/JPA2026_poster.pdf) [[Handout PDF]](files/JPA2026_handout.pdf)
+- 脇本 竜太郎 (2018). 俗流若者論を自己正当化と社会に対する評価の投影として理解する：存在脅威管理理論からの検討 日本社会心理学会第59回大会(追手門学院大学)
+- 脇本 竜太郎 (2015). 慈悲的性差別が母親の就労継続に対する偏見に及ぼす影響：情緒不安定性の調節効果 日本社会心理学会第56回大会(東京女子大学)
+- 脇本 竜太郎 (2013). 逸脱行為の意図が内在的正義の推論に及ぼす影響：自己効力感の調節効果 日本社会心理学会第54回大会(沖縄国際大学)
+- 脇本 竜太郎 (2012). 存在論的恐怖が動機づけるのは自己高揚か，一貫性希求か？ ：達成事象の主観的時間的距離に着目した検討 日本社会心理学会第53回大会(筑波大学)
+- 脇本 竜太郎 (2012). 大学適応を予測する新入生研修の継時的評価 日本心理学会第76回大会(専修大学)
+
+</div>
+
+</section>
+
+<section id="join">
+
+## Join Us
+
+<div class="recruit-panel">
+
+### 大学院生（修士課程）を考えている方へ
+
+修士課程では、ファン心理とファン行動について、社会心理学を枠組みとして量的研究を行いたい学生を募集しています。
+
+社会心理学を中心とした理論的枠組みや、質問紙調査・データ分析・論文執筆について指導を行いますが、「与えられた課題をこなす」場ではありません。  
+**自身の研究を主体的に進めることが前提**になります。
+
+#### 必要な外国語の能力
+
+授業は原則として日本語で行います。  
+日本語と英語の学術論文を読み、手続きや分析を理解できる語学力を前提として授業を進めます。
+
+#### 大学院進学に向けて準備してほしいこと
+
+社会心理学、社会心理学研究法、心理統計に関する学部卒業程度の知識を前提として指導を進めます。
+
+心理学系の学部出身でない場合は、以下の文献を読み、内容を理解しておいてください。外国籍の方は、母国語で書かれたテキストを通読しておいてください。
+
+- 池田ら (2019). 社会心理学 補訂版（New Liberal Arts Selection） 有斐閣
+- 安藤ら (2017). 社会心理学研究入門 補訂新版 東京大学出版会
+- 南風原 (2002). 心理統計学の基礎：統合的理解のために 有斐閣
+- 南風原 (2014). 続・心理統計学の基礎 有斐閣
+
+</div>
+
+<div class="recruit-panel">
+
+### 問題分析ゼミナール・問題解決ゼミナール（学部3・4年）への志望を考えている方へ
+
+問題分析ゼミナールおよび問題解決ゼミナールでは、  
+**身近な社会的行動を、社会心理学の視点から考える力を身につけること**を目標にしています。
+
+量的に検討できるものであれば、テーマは特に問いません。
+
+ゼミでは、
+
+- 身近な社会現象を社会心理学の視点から考える
+- 文献の読み方や議論の仕方、研究手法を学ぶ
+- 量的研究を企画して実施する
+- 量的な分析を行う
+- 卒業論文に向けて段階的に準備する
+
+といったことを、無理のないペースで進めていきます。
+
+なお、卒業論文単位化に参加しており、卒業論文の提出が必須となっているゼミです。
+
+</div>
+
+<div class="recruit-panel">
+
+### 見学・相談について
+
+研究室選択に迷っている段階での相談や見学も歓迎しています。  
+特に大学院進学を考えている方は、事前に研究内容や関心について相談することを勧めます。
+
+なお、入試の公平性の観点から、研究計画書へのコメントはできません。
+</div>
+</section>
 <br>
 <footer style="text-align:center; margin-top:3em; padding:1em 0; background-color:#f2f2f2; color:#333;">
 contact:wakimoto[at]meiji.ac.jp<br>
