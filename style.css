@@ -12,7 +12,7 @@ body {
     sans-serif;
   line-height: 1.7;
   color: #222;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
 }
 
 /* R Markdown自動タイトルは非表示 */
@@ -215,10 +215,11 @@ footer {
   z-index: 999;
   text-align: center;
   margin: 0;
-  padding: 0.5em 0;
+  padding: 0.25em 0;
   background-color: #f2f2f2;
   color: #555;
   font-size: 0.85em;
+  line-height: 1.35;
   box-shadow: 0 -1px 4px rgba(0,0,0,0.1);
 }
 
