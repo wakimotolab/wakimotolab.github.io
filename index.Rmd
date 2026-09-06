@@ -55,11 +55,6 @@ In particular, we focus on psychological processes such as identity, self-esteem
 
 </div>
 
-<div class="pub-panel">
-
-### これまでの修士論文のテーマ
-
-</div>
 
 <div class="pub-panel">
 
@@ -233,7 +228,6 @@ Associate Professor, School of Information and Communication, Meiji University
 なお、入試の公平性の観点から、研究計画書へのコメントはできません。
 </div>
 </section>
-<br>
 <footer style="text-align:center; margin-top:3em; padding:1em 0; background-color:#f2f2f2; color:#333;">
 contact:wakimoto[at]meiji.ac.jp<br>
   &copy; 2026 Wakimoto Laboratory 
