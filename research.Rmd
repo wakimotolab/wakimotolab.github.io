@@ -17,6 +17,7 @@ class: research
 
 <div class="pub-panel">
 ### 研究室で進めているプロジェクト
+ファン心理や「推す」という行動を題材として、自己と社会との関係を理解する研究にも取り組んでいます。近年はゼミのプロジェクトとして推し変に対する態度の尺度(推し変態度尺度)を作成したり、ファンとアイドルの相互性、アイドルに対するファ目だし行動、ママファンの心理について研究を行っています。
 </div>
 
 <div class="pub-panel">
@@ -26,6 +27,11 @@ class: research
 
 <div class="pub-panel">
 ### これまでの卒業論文のテーマ
+- SNSにおける良性妬みと悪性妬み
+- 創作活動への参加を規定する要因
+- 製品の擬人化が愛着に及ぼす影響
+- ファンアイデンティティとファン行動の関連
+- 先延ばし行動の認知プロセス　
 </div>
 
 <footer style="text-align:center; margin-top:3em; padding:1em 0; background-color:#f2f2f2; color:#333;">
