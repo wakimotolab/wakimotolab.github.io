@@ -319,11 +319,13 @@ footer a:hover {
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 1.8rem !important;
+    font-size: 1.5rem !important;
+    line-height: 1.5;
   }
 
   .tagline {
-    font-size: 1.15rem;
+    font-size: 1.05rem;
+    line-height: 1.6;
   }
 
   body {
@@ -338,14 +340,19 @@ footer a:hover {
   }
 
 .navbar .nav-links {
-  flex-wrap: nowrap !important;
-  gap: 0.4em !important;
+  display: grid !important;
+  grid-template-columns: repeat(4, auto);
   width: 100% !important;
+  gap: 0 !important;
+}
+
+.navbar .nav-links li {
+  white-space: nowrap !important;
 }
 
 .navbar .nav-links a {
-  font-size: 0.9em;
-  padding: 0.2em 0.2em !important;
+  font-size: 0.85em;
+  padding: 0.2em 0.3em !important;
 }
 
   section {
