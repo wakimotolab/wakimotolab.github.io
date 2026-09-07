@@ -12,7 +12,12 @@ output:
   <ul class="nav-links">
     <li><a href="#research">Research</a></li>
     <li><a href="#members">Members</a></li>
-    <li><a href="#publications">Publications</a></li>
+<li>
+  <a href="#publications">
+    <span class="nav-full">Publications</span>
+    <span class="nav-short">Pubs.</span>
+  </a>
+</li>
     <li><a href="#join">Join Us</a></li>
   </ul>
 </div>

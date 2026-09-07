@@ -149,6 +149,10 @@ background: linear-gradient(
   background-color: rgba(255,255,255,0.15) !important;
 }
 
+.nav-short {
+  display: none;
+}
+
 /* 固定ナビから飛んだとき、見出しが隠れないようにする */
 section {
   scroll-margin-top: 100px;
@@ -318,6 +322,15 @@ footer a:hover {
 =============================== */
 
 @media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem !important;
+    line-height: 1.5;
+  }
+
+  .tagline {
+    font-size: 1.05rem;
+    line-height: 1.6;
+  }
 
   body {
     margin-top: 150px;
@@ -330,20 +343,27 @@ footer a:hover {
     padding: 0.9em 1.2em !important;
   }
 
-  .navbar .nav-links {
-    gap: 0.5em 0.8em !important;
-    margin-top: 0.6em !important;
-  }
+.navbar .nav-links {
+  display: grid !important;
+  grid-template-columns: repeat(4, auto);
+  width: 100% !important;
+  gap: 0 !important;
+}
 
-  .navbar .nav-links a {
-    padding: 0.2em 0.3em !important;
-  }
+.navbar .nav-links li {
+  white-space: nowrap !important;
+}
+
+.navbar .nav-links a {
+  font-size: 0.85em;
+  padding: 0.2em 0.3em !important;
+}
 
   section {
     scroll-margin-top: 160px;
   }
 
-  section > h2 {
+  .section.level2 > h2 {
     font-size: 1.55em !important;
   }
 

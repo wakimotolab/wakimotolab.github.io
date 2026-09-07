@@ -149,6 +149,10 @@ background: linear-gradient(
   background-color: rgba(255,255,255,0.15) !important;
 }
 
+.nav-short {
+  display: none;
+}
+
 /* 固定ナビから飛んだとき、見出しが隠れないようにする */
 section {
   scroll-margin-top: 100px;
@@ -353,6 +357,14 @@ footer a:hover {
 .navbar .nav-links a {
   font-size: 0.85em;
   padding: 0.2em 0.3em !important;
+}
+
+.nav-full {
+  display: none;
+}
+
+.nav-short {
+  display: inline;
 }
 
   section {
