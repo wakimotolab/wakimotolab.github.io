@@ -52,8 +52,18 @@ section > h2 {
   color: #483698;
   margin-top: 2.8em !important;
   margin-bottom: 1.2em !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
   padding-bottom: 0.35em;
   border-bottom: 3px solid #483698;
+}
+
+.section.level2 > h2 {
+  max-width: 1100px;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
 
 h3 {
@@ -150,8 +160,9 @@ section {
 
 .pub-panel,
 .recruit-panel {
+  max-width: 980px;
+  margin: 1.5em auto 2em auto;
   padding: 1.3em 1.6em;
-  margin: 1.5em 0 2em 0;
   border-radius: 6px;
 }
 
