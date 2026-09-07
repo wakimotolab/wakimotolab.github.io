@@ -326,7 +326,6 @@ footer a:hover {
     font-size: 1.15rem;
   }
 
-}
   body {
     margin-top: 150px;
     padding-bottom: 0;
@@ -352,7 +351,7 @@ footer a:hover {
     scroll-margin-top: 160px;
   }
 
-  section > h2 {
+  .section.level2 > h2 {
     font-size: 1.55em !important;
   }
 
