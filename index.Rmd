@@ -271,6 +271,7 @@ Visitors: <span id="visitor-count">—</span>
 
   const storageKey = "wakimotolab-last-visit-date";
 
+  // 日本時間の日付を YYYY-MM-DD で取得
   function getJSTDate() {
     const parts = new Intl.DateTimeFormat("en-US", {
       timeZone: "Asia/Tokyo",
@@ -278,66 +279,83 @@ Visitors: <span id="visitor-count">—</span>
       month: "2-digit",
       day: "2-digit"
     }).formatToParts(new Date());
-    
     const values = {};
     parts.forEach(part => {
       values[part.type] = part.value;
     });
-    
     return `${values.year}-${values.month}-${values.day}`;
+  }
+
+  // GET時のキャッシュ回避用
+  function freshCounterURL() {
+    return counterBase + "?t=" + Date.now();
   }
 
   const today = getJSTDate();
   const lastVisit = localStorage.getItem(storageKey);
 
-try {
-  let count;
-
-  if (lastVisit === today) {
-    // 今日すでにカウント済みなら、現在値を読むだけ
-    const response = await fetch(counterBase);
+  try {
+    let count;
     
-    if (!response.ok) {
-      throw new Error(`HTTP ${response.status}`);
+    if (lastVisit === today) {
+
+      // 今日すでにカウント済み：
+      // キャッシュを使わず最新値だけ取得
+      const response = await fetch(freshCounterURL(), {
+        cache: "no-store"
+      });
+
+      if (!response.ok) {
+        throw new Error(`HTTP ${response.status}`);
+      }
+
+      const result = await response.json();
+      count = result.data.up_count;
+
+    } else {
+
+      // 今日初めて：まず +1
+      const upResponse = await fetch(counterBase + "/up", {
+        cache: "no-store"
+      });
+
+      if (!upResponse.ok) {
+        throw new Error(`HTTP ${upResponse.status}`);
+      }
+
+      //+1完了後、キャッシュを使わず最新値を再取得
+      const getResponse = await fetch(freshCounterURL(), {
+        cache: "no-store"
+      });
+
+      if (!getResponse.ok) {
+        throw new Error(`HTTP ${getResponse.status}`);
+      }
+      
+      const result = await getResponse.json();
+      count = result.data.up_count;
     }
 
-    const result = await response.json();
-    count = result.data.up_count;
+    //最新値を表示
+    document.getElementById("visitor-count").textContent = count;
 
-  } else {
-    // 今日初めてなら、まず +1
-    const upResponse = await fetch(counterBase + "/up");
-    if (!upResponse.ok) {
-      throw new Error(`HTTP ${upResponse.status}`);
+    //今日カウントしたことを記録
+    if (lastVisit !== today) {
+      localStorage.setItem(storageKey, today);
     }
 
-    // その後、最新値をもう一度取得
-    const getResponse = await fetch(counterBase);
-
-    if (!getResponse.ok) {
-      throw new Error(`HTTP ${getResponse.status}`);
+    //国家的重要キリ番
+    if (lastVisit !== today && count === 1000) {
+      alert(
+        "🎉 Congratulations!\n\n" +
+        "You are visitor #1000!\n\n" +
+        "スクリーンショットを保存してください。"
+      );
     }
-    
-    const result = await getResponse.json();
-    count = result.data.up_count;
-  }
 
-  document.getElementById("visitor-count").textContent = count;
-
-  if (lastVisit !== today) {
-    localStorage.setItem(storageKey, today);
+  } catch (error) {
+    console.warn("Visitor counter error:", error);
   }
-
-  if (lastVisit !== today && count === 1000) {
-    alert(
-      "🎉 Congratulations!\n\n" +
-      "You are visitor #1000!\n\n" +
-      "スクリーンショットを保存してください。"
-    );
-  }
-} catch (error) {
-  console.warn("Visitor counter error:", error);
-}
 
 })();
 </script>
