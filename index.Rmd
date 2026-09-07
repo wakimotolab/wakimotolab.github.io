@@ -234,8 +234,8 @@ Associate Professor, School of Information and Communication, Meiji University
 
 ### 見学・相談について
 
-研究室選択に迷っている段階での相談や見学も歓迎しています。  
-特に大学院進学を考えている方は、事前に研究内容や関心について相談することを勧めます。
+研究室選択に迷っている段階での相談も歓迎しています。  
+特に大学院進学を考えている方は、事前にテーマや方法が合致しているかについて相談することを勧めます。
 
 なお、入試の公平性の観点から、研究計画書へのコメントはできません。
 </div>
@@ -246,13 +246,24 @@ contact: wakimoto[at]meiji.ac.jp
 Visitors: <span id="visitor-count">—</span><br>
 &copy; 2026 Wakimoto Laboratory
 </footer>
-<script>
-fetch("https://wakimotolab.goatcounter.com/counter/TOTAL.json")
-  .then(response => response.json())
-  .then(data => {
-    document.getElementById("visitor-count").textContent = data.count;
-  });
-</script>
 
 <script data-goatcounter="https://wakimotolab.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
+<script>
+
+let r = new XMLHttpRequest();
+
+r.addEventListener('load', function() {
+  if (this.status === 200) {
+    document.getElementById('visitor-count').innerText =
+      JSON.parse(this.responseText).count;
+  }
+});
+
+r.open(
+  'GET',
+  'https://wakimotolab.goatcounter.com/counter/TOTAL.json'
+);
+
+r.send();
+</script>
