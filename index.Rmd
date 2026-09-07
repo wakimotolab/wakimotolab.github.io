@@ -21,15 +21,22 @@ output:
     <li><a href="#join">Join Us</a></li>
   </ul>
 </div>
+
 <center>
-<h1 style="font-size: 2.2rem;">
-明治大学情報コミュニケーション学部<br>
-脇本研究室
+<h1 class="hero-title">
+<span class="hero-faculty">明治大学情報コミュニケーション学部</span><br>
+<span class="hero-lab">脇本研究室</span>
+
 </h1>
-<div class="tagline">
+
+<div class="tagline tagline-desktop">
 自己と社会のかかわりを、社会心理学から考える。
 </div>
 
+<div class="tagline tagline-mobile">
+自己と社会のかかわりを、<br>
+社会心理学から考える。
+</div>
 </center>
 
 <section id="news">

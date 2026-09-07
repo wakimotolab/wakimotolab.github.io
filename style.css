@@ -29,6 +29,10 @@ h1.title {
   display: none;
 }
 
+.tagline-mobile {
+  display: none;
+}
+
 /* ===============================
    基本見出し
 =============================== */
@@ -306,13 +310,33 @@ footer a:hover {
 }
 
 /* ===============================
+
    モバイル
+
 =============================== */
 
 @media (max-width: 768px) {
+  body {
+    margin-top: 150px;
+    padding-bottom: 0;
+  }
+
   h1 {
     font-size: 1.5rem !important;
     line-height: 1.5;
+  }
+
+  .hero-title {
+    font-size: 1.5rem !important;
+    line-height: 1.5;
+  }
+
+  .hero-faculty {
+    font-size: 0.9em;
+  }
+
+  .hero-lab {
+    font-size: 1.15em;
   }
 
   .tagline {
@@ -320,9 +344,12 @@ footer a:hover {
     line-height: 1.6;
   }
 
-  body {
-    margin-top: 150px;
-    padding-bottom: 0;
+  .tagline-desktop {
+    display: none;
+  }
+  
+  .tagline-mobile {
+    display: block;
   }
 
   body > .navbar {
@@ -331,30 +358,30 @@ footer a:hover {
     padding: 0.9em 1.2em !important;
   }
 
-.navbar .nav-links {
-  display: grid !important;
-  grid-template-columns: repeat(4, 1fr);
-  width: 100% !important;
-  gap: 0 !important;
-}
+  .navbar .nav-links {
+    display: grid !important;
+    grid-template-columns: repeat(4, 1fr);
+    width: 100% !important;
+    gap: 0 !important;
+  }
 
-.navbar .nav-links li {
-  white-space: nowrap !important;
-  text-align: center;
-}
+  .navbar .nav-links li {
+    white-space: nowrap !important;
+    text-align: center;
+  }
 
-.navbar .nav-links a {
-  font-size: 0.85em;
-  padding: 0.2em 0.3em !important;
-}
+  .navbar .nav-links a {
+    font-size: 0.85em;
+    padding: 0.2em 0.3em !important;
+  }
 
-.nav-full {
-  display: none;
-}
+  .nav-full {
+    display: none;
+  }
 
-.nav-short {
-  display: inline;
-}
+  .nav-short {
+    display: inline;
+  }
 
   section {
     scroll-margin-top: 160px;
@@ -368,9 +395,10 @@ footer a:hover {
   .recruit-panel {
     padding: 1.1em 1.2em;
   }
+
   footer {
-  position: static;
-  width: auto;
-  margin-top: 3em;
+    position: static;
+    width: auto;
+    margin-top: 3em;
   }
 }
