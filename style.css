@@ -1,14 +1,23 @@
 body {
   margin-top: 90px;
 font-family:
+
+  "Helvetica Neue",
+
   "Hiragino Sans",
+
   "Hiragino Kaku Gothic ProN",
+
   -apple-system,
+
   BlinkMacSystemFont,
+
   "Yu Gothic Medium",
+
   "Yu Gothic",
+
   "Meiryo",
-  system-ui,
+
   sans-serif;
   line-height: 1.7;
   color: #222;
@@ -26,6 +35,15 @@ h1.title {
 
 h1, h2, h3, h4 {
   letter-spacing: 0.02em;
+}
+
+.tagline {
+  font-size: 1.4rem;
+  font-weight: 400;
+  color: #483698;
+  text-align: center;
+  margin-top: 0.5em;
+  margin-bottom: 1.5em;
 }
 
 section > h2 {
@@ -167,6 +185,58 @@ section {
   color: #3f628f;
 }
 
+/* ===============================
+   News
+=============================== */
+
+.news-panel {
+  max-width: 760px;
+  margin: 1em auto 2em auto;
+  padding: 0.5em 1em;
+  background: #fafafa;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.news-panel h2 {
+  font-size: 1.25em;
+  font-weight: 500;
+  color: #483698;
+  margin: 0 0 0.5em 0;
+  padding-bottom: 0.3em;
+  border-bottom: 1px solid #ddd;
+}
+
+.news-item {
+  display: flex;
+  gap: 0.8em;
+  padding: 0.1em 0;
+  margin:0;
+}
+
+.news-item + .news-item {
+  margin-top: 0.3em;
+}
+
+.news-item p {
+  margin: 0;
+}
+
+.news-date {
+  flex-shrink: 0;
+  font-weight: 400;
+  color: #483698;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.news-text {
+  line-height: 1.4;
+}
+
+.news-text a {
+  margin-left: 0.4em;
+  font-size: 0.9em;
+}
 /* ===============================
    プロフィールリンク
 =============================== */
