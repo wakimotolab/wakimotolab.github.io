@@ -26,19 +26,15 @@ output:
 <h1 class="hero-title">
 <span class="hero-faculty">明治大学情報コミュニケーション学部</span><br>
 <span class="hero-lab">脇本研究室</span>
-
 </h1>
-
 <div class="tagline tagline-desktop">
 自己と社会のかかわりを、社会心理学から考える。
 </div>
-
 <div class="tagline tagline-mobile">
 自己と社会のかかわりを、<br>
 社会心理学から考える。
 </div>
 </center>
-
 <section id="news">
 <div class="news-panel">
 <h2>News</h2>
@@ -193,7 +189,7 @@ Associate Professor, School of Information and Communication, Meiji University
 
 <div class="recruit-panel">
 
-### 大学院生（修士課程）を考えている方へ
+### 大学院（修士課程）への進学を考えている方へ
 
 修士課程では、ファン心理とファン行動について、社会心理学を枠組みとして量的研究を行いたい学生を募集しています。
 
