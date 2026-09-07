@@ -244,3 +244,6 @@ Associate Professor, School of Information and Communication, Meiji University
 contact: wakimoto[at]meiji.ac.jp<br>
 &copy; 2026 Wakimoto Laboratory
 </footer>
+
+<script data-goatcounter="https://wakimotolab.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
