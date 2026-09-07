@@ -318,7 +318,15 @@ footer a:hover {
 =============================== */
 
 @media (max-width: 768px) {
+  h1 {
+    font-size: 1.8rem !important;
+  }
 
+  .tagline {
+    font-size: 1.15rem;
+  }
+
+}
   body {
     margin-top: 150px;
     padding-bottom: 0;
@@ -330,14 +338,15 @@ footer a:hover {
     padding: 0.9em 1.2em !important;
   }
 
-  .navbar .nav-links {
-    gap: 0.5em 0.8em !important;
-    margin-top: 0.6em !important;
-  }
+.navbar .nav-links {
+  flex-wrap: nowrap !important;
+  gap: 0.4em !important;
+}
 
-  .navbar .nav-links a {
-    padding: 0.2em 0.3em !important;
-  }
+.navbar .nav-links a {
+  font-size: 0.9em;
+  padding: 0.2em 0.2em !important;
+}
 
   section {
     scroll-margin-top: 160px;
