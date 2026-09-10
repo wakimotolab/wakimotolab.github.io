@@ -264,7 +264,6 @@ Visitors: <span id="visitor-count">—</span>
 <!-- リアルタイムアクセスカウンター -->
 
 <script>
-
 (async function () {
 
   const counterBase =
